@@ -1,0 +1,22 @@
+.carrusel-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 50px;
+}
+
+.carrusel {
+    width: 50%;
+}
+
+.carrusel-cotenido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.carrusel-leyenda {
+    background-color: white;
+}

@@ -1,0 +1,17 @@
+.tarjeta {
+    width: 350px;
+    height: 130px;
+    background-color: blue;
+    color:white;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.tarjeta h1 {
+    font-size: 23px !important;
+}

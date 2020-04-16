@@ -1,0 +1,10 @@
+.input {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    margin: 10px;
+}
+
+.input label {
+    margin-bottom: 5px;
+}

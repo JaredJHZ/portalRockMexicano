@@ -1,0 +1,11 @@
+.listado {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.coleccion {
+    width: 35%;
+}

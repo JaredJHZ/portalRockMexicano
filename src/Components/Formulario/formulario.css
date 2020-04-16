@@ -1,0 +1,13 @@
+.formulario {
+    width: 100%;
+}
+
+
+.ui-formulario {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    min-height: 80vh;
+}

@@ -1,0 +1,22 @@
+{
+    "id": {
+        "type": "text",
+        "value": "",
+        "texto": "ID de la banda"
+    },
+    "nombre": {
+        "type":"text",
+        "value":"",
+        "texto": "Nombre de la banda"
+    },
+    "numero_discos": {
+        "type":"text",
+        "value":"",
+        "texto": "Numero de discos de la banda"
+    },
+    "origen": {
+        "type":"text",
+        "value":"",
+        "texto": "Origen de la banda"
+    }
+}
