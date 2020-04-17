@@ -1,12 +1,5 @@
 .footer {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    background-color: blue;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-weight: bold;
+    background-color: #090C9B;
+    color: #EE7B49;
+    text-align: center;
 }

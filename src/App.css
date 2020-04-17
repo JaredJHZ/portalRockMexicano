@@ -1,58 +1,18 @@
-
-
 body {
-  position: relative;
-  min-height: 100vh;
-}
-
-.formulario {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column;
-}
-
-.formulario button {
-  width: 8%;
-  margin-top: 2%;
-}
-
-.campoFormulario {
-  width: 20%;
-  display: flex;
-  flex-flow: column;
-  margin: 0.5%;
-}
-
-.campoFormulario label {
-  margin-bottom: 10px;
-}
-
-.contenedor-footer {
-  width: 100% !important;
-  height: 50px !important;
-}
-
-.link-activo {
-  font-weight: bolder !important;
-  color:black !important;
-}
-
-h1, h2, h3, h4, h5 {
-  font-size: 2rem;
-}
-
-.parent-container {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  min-height: 100vh;
-  
+    background-color: #3C3744;
+    color: #EE7B49;
+    font-weight: bold;
 }
 
 .contenedor {
-  min-width: 100vw;
-  min-height: 93vh;
+    min-height: 98vh;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.link-activo {
+    color: #3066BE !important;
 }

@@ -1,7 +1,11 @@
 .home {
-    text-align: center;
+    display: flex;
 }
 
-.title {
-    text-align: center;
+.izquierdo {
+    width: 50%;
+}
+
+.derecha {
+    width: 50%;
 }

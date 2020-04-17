@@ -10,13 +10,18 @@ export default (props) => {
 
     return (
 
-        <div className="home">
+        <div>
           <h1>Estas son las bandas mas importantes de la escena actualmente</h1>
-          <Carousel bandas={props.bandas} />
-          <div>
-              <h1>Bandas Top</h1>
-              <Listado bandas={props.bandas} />
-          </div>
+          <article className="home">
+            <div className="izquierdo">
+                <Carousel bandas={props.bandas} />
+            </div>
+            <div className="derecha">
+                <h1>Top tres populares</h1>
+                <Listado bandas={props.bandas} />
+            </div>
+          </article>
+
         </div>
     );
 

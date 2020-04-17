@@ -11,7 +11,7 @@ export default (props) => {
 
     let creadorDeElementosDeLaLista = (value) => {
         return (
-            <CollectionItem className="avatar">
+            <CollectionItem className="avatar list-item">
             <img
             alt=""
             className="circle"
@@ -23,8 +23,7 @@ export default (props) => {
             <p>
                 {value.origen}
             <br />
-                Número de discos: 
-                {value.numero_discos}
+                Número de discos: { " "+  value.numero_discos }
             </p>
             <a
             className="secondary-content"

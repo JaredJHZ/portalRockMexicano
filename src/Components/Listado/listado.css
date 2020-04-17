@@ -7,5 +7,16 @@
 }
 
 .coleccion {
-    width: 35%;
+    width: 40%;
+}
+
+.list-item {
+    background-color: #6C534E !important;
+    text-align: center;
+}
+
+.list-item:hover {
+    cursor: pointer;
+    background-color: #EE7B49 !important;
+    color: #3066BE;
 }
